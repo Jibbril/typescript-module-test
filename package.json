@@ -1,0 +1,21 @@
+{
+  "name": "mods",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm test.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@planetscale/database": "^1.7.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
